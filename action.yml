@@ -145,7 +145,7 @@ runs:
 
     - name: Set up Buf
       if: inputs.use-docker != 'true'
-      uses: bufbuild/buf-setup-action@v1
+      uses: bufbuild/buf-setup-action@a47c93e0b1648d5651a065437926377d060baa99 # v1.50.0
       with:
         version: ${{ inputs.buf-version }}
         github_token: ${{ inputs.github-token }}
